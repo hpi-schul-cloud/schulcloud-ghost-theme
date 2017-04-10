@@ -1,5 +1,5 @@
 {
-    "name": "casper",
+    "name": "casper-schulcloud",
     "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "https://demo.ghost.io",
     "version": "1.3.3",
@@ -32,5 +32,8 @@
         "url": "https://github.com/TryGhost/Casper.git"
     },
     "bugs": "https://github.com/TryGhost/Casper/issues",
-    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors"
+    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+    "scripts": {
+      "bundle": "zip -r schulcloud.zip ."
+    }
 }
