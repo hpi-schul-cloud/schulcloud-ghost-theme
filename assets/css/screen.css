@@ -602,7 +602,12 @@ body.nav-opened .site-wrapper {
 
 .main-header .inner {
     width: 80%;
-    margin-top: 40%;
+    margin-top: 35%;
+    border: 0.5px solid #b10438;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    text-shadow: -1px 0 black, 0 .5px black, 1px 0 black, 0 -1px black;
 }
 
 .main-nav {
@@ -1057,6 +1062,13 @@ body:not(.page-template) .post-title {
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
+}
+
+.post-preview {
+  width: 100%;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
 }
 
 .author-thumb {
