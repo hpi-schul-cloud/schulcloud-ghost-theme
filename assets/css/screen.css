@@ -573,6 +573,20 @@ body.nav-opened .site-wrapper {
    4. General - The main styles for the the theme
    ========================================================================== */
 
+
+ a,
+ .main-nav a,
+ .pagination,
+ .site-footer,
+ .page-description,
+ .page-title {
+   color: #b10438 !important;
+ }
+
+ .page-title {
+   font-weight: bold;
+ }
+
 /* Big cover image on the home page */
 .main-header {
     position: relative;
@@ -588,6 +602,7 @@ body.nav-opened .site-wrapper {
 
 .main-header .inner {
     width: 80%;
+    margin-top: 40%;
 }
 
 .main-nav {
